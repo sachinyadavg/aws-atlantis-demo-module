@@ -1,7 +1,3 @@
-provider "aws" {
-  region = local.region
-}
-
 locals {
   name   = "github-atlantis-demo"
   region = "eu-west-2"
