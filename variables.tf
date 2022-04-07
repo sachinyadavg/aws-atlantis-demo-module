@@ -23,8 +23,3 @@ variable "github_user" {
   description = "Github user for Atlantis to utilize when performing Github activities"
   type        = string
 }
-
-variable "atlantis_host" {
-  description = "URL to publish Atlantis on"
-  default     = "atlantis.heooz.com"
-}
