@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sachinyadavg/aws-atlantis-demo-module/compare/v1.0.0...v1.0.1) (2022-04-07)
+
+
+### Bug Fixes
+
+* updated vars for not creating cert and domain ([f5e03dc](https://github.com/sachinyadavg/aws-atlantis-demo-module/commit/f5e03dcbc49682be02b76f88fa189b57901a3e8c))
+
 # 1.0.0 (2022-04-07)
 
 
