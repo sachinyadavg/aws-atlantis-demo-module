@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/sachinyadavg/aws-atlantis-demo-module/compare/v1.0.1...v1.0.2) (2022-04-07)
+
+
+### Bug Fixes
+
+* issue with webhook variable ([6c319d9](https://github.com/sachinyadavg/aws-atlantis-demo-module/commit/6c319d916a2ec31fe4ed4d5feb09ff7889c41836))
+
 ## [1.0.1](https://github.com/sachinyadavg/aws-atlantis-demo-module/compare/v1.0.0...v1.0.1) (2022-04-07)
 
 
