@@ -1,6 +1,7 @@
 variable "domain" {
   description = "Route53 domain name to use for ACM certificate. Route53 zone for this domain should be created in advance"
   type        = string
+  default     = ""
 }
 
 variable "alb_ingress_cidr_blocks" {
@@ -21,4 +22,9 @@ variable "github_owner" {
 variable "github_user" {
   description = "Github user for Atlantis to utilize when performing Github activities"
   type        = string
+}
+
+variable "atlantis_host" {
+  description = "URL to publish Atlantis on"
+  default     = "atlantis.heooz.com"
 }
