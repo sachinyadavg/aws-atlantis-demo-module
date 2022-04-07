@@ -93,7 +93,8 @@ module "github_repository_webhook" {
   github_owner = var.github_owner
   github_token = var.github_token
 
-  atlantis_repo_allowlist = module.atlantis.atlantis_repo_allowlist
+  # Issue already raised https://github.com/terraform-aws-modules/terraform-aws-atlantis/issues/253
+  atlantis_repo_allowlist = ["terraform_infrastructure"]        #var.github_repo_allow_list #module.atlantis.atlantis_repo_allowlist
 
   webhook_url    = module.atlantis.atlantis_url_events
   webhook_secret = module.atlantis.webhook_secret
