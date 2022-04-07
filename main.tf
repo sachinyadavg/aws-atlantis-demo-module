@@ -56,7 +56,9 @@ module "atlantis" {
   }]
 
   # DNS
-  route53_zone_name = var.domain
+  #route53_zone_name = var.domain
+  create_route53_record = false
+  certificate_arn       = data.aws_acm_certificate.ssl_cert.arn # hacked for cases where certs is already created and domain is not with AWS Route53.
 
   # Trusted roles
   trusted_principals = ["ssm.amazonaws.com"]
