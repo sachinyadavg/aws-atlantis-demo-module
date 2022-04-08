@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/sachinyadavg/aws-atlantis-demo-module/compare/v1.0.2...v1.0.3) (2022-04-08)
+
+
+### Bug Fixes
+
+* updated module ([443f395](https://github.com/sachinyadavg/aws-atlantis-demo-module/commit/443f39501e77f19c99f65e0b56158e3b27bad915))
+
 ## [1.0.2](https://github.com/sachinyadavg/aws-atlantis-demo-module/compare/v1.0.1...v1.0.2) (2022-04-07)
 
 
