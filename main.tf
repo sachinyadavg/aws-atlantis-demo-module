@@ -65,6 +65,8 @@ module "atlantis" {
   atlantis_github_user       = var.github_user
   atlantis_github_user_token = var.github_token
   atlantis_repo_allowlist    = ["github.com/${var.github_owner}/*"]
+  
+  atlantis_image = "${data.aws_ecr_repository.ecr.repository_url}:latest"
 
   # ALB access
   alb_ingress_cidr_blocks         = var.alb_ingress_cidr_blocks
