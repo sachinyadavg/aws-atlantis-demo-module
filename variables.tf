@@ -23,3 +23,8 @@ variable "github_user" {
   description = "Github user for Atlantis to utilize when performing Github activities"
   type        = string
 }
+
+variable "ecr_repo_name" {
+  description = "Docker image to run atlantis fargate service atlantis"
+  default     = ""
+}
